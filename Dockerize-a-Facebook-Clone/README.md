@@ -1,5 +1,12 @@
 # Facebooc
 
+```
+docker build -t facebooc . 
+docker run -ditp 8080:16000 facebooc
+```
+
+![11](https://user-images.githubusercontent.com/64049432/204135247-b715b282-6911-4011-9713-a5ac9a63a757.jpg)
+
 Proof-of-concept Facebook clone in C.
 The only dependency is SQLite3.
 
